@@ -1,0 +1,7 @@
+print("what do you call cheese that isn't yours?")
+input("")
+print("Nacho cheese hahaha!!!")
+input("")
+print("Why don't skeletons fight each other?")
+input("")
+print("They don't have the guts.")

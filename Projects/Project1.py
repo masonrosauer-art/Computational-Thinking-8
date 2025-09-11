@@ -1,0 +1,8 @@
+print("hi what is your name?")
+name =input("")
+print(f"Hello {name} and welcome to Masons project today i will be making sure your feeling great")
+print ("How are you doing today")
+input("")
+print(f"{name} today we are going to make you feel even better")
+input("")
+print("is there anything you would want to talk about if so i can listen")
