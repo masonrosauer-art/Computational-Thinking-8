@@ -2,7 +2,7 @@ introvert_points = 0
 extrovert_points = 0
 
 
-answer = input("on the weekend are you A) chill at your home all day, or B) chill out side on a sunny day ")
+answer = input("on the weekend are you A) chill at your home all day, or B) chill out side on a sunny day and eat popsicles")
 if answer == "A":
 	extrovert_points += 1
 elif answer == "B":
@@ -37,6 +37,6 @@ elif answer == "B":
 	extrovert_points += 1
 
 if introvert_points>2:
-	print("you are a introvert")
+	print("you are a introvert and you can get this by answering A,A,A,B")
 elif extrovert_points>2:
-	print ("you are a extrovert")
+	print ("you are a extrovert and you can get this by answering B,B,B,A")
