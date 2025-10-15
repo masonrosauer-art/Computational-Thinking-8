@@ -2,7 +2,7 @@ introvert_points = 0
 extrovert_points = 0
 
 
-answer = input("on the weekend are you A) chill at your home all day, or B) chill out side on a sunny day and eat popsicles")
+answer = input("on the weekend are you A) chill at your home all day, or B) chill out side on a sunny day and eat popsicle")
 if answer == "A":
 	extrovert_points += 1
 elif answer == "B":
@@ -24,19 +24,20 @@ elif answer == "B":
 
 
 answer = input("Are you A. Do you feel most energized in a social setting, or B. by yourself and one on one ")
-if answer == "A":
+if answer == "A" or answer == "a":
 	extrovert_points += 1
 elif answer == "B":
 	introvert_points += 1
 
 
 answer = input(" 'A' Do you find social media important, or 'B' do you find social media not important? ")
-if answer == "A":
-	introvert_points += 1
+if answer == "A" and introvert_points >3:
+	print("you really are a introvert") 
+	introvert_points += 1 
 elif answer == "B":
 	extrovert_points += 1
 
 if introvert_points>2:
 	print("you are a introvert and you can get this by answering A,A,A,B")
-elif extrovert_points>2:
-	print ("you are a extrovert and you can get this by answering B,B,B,A")
+if extrovert_points>2:
+	print("you are an extrovert and you can get this by answering B,B,B,A")
