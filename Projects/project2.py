@@ -38,6 +38,6 @@ elif answer == "B":
 	extrovert_points += 1
 
 if introvert_points>2:
-	print("you are a introvert and you can get this by answering A,A,A,B")
+	print("you are a introvert and you can get this by answering B,B,A,B,A")
 if extrovert_points>2:
-	print("you are an extrovert and you can get this by answering B,B,B,A")
+	print("you are an extrovert and you can get this by answering A,A,B,A,B")
