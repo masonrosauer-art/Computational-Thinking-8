@@ -1,11 +1,14 @@
+#this is my turtle 
 import turtle 
 turtle.Screen().bgcolor("pink")
 t = turtle.Turtle()
 t.speed(10)
 
+#these are the colors i used 
 t.goto(0,0)
 colors = ["black","dark blue","crimson"]
 
+#this is my design/directions
 for i in range (150): 
     t.color(colors[ i % 3])
 
